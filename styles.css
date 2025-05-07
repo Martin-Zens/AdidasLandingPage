@@ -1,4 +1,5 @@
 
+
         
         @font-face {
             font-family: 'AdiHaus';
@@ -19,6 +20,10 @@
                 min-height: 100vh;
                 margin: 0;
                 font-family: AdiHaus;
+            }
+
+            body{
+                display: flex;
             }
     
             h2, p{
@@ -96,3 +101,45 @@
                 font-size: 18px;
                 color: white;
             }
+
+            .desktopImage {
+                display: none;
+            }
+
+    @media only screen and (min-width: 768px) {
+
+        body {
+            background: url(https://assets.codepen.io/6060109/destop-bg.png);
+            background-size: cover;
+        }
+
+        .outerContainer{
+            width: 50%;
+        }
+
+        .textContentContainer{
+            text-align: left;
+        }
+
+        #logo {
+            margin: 30px 30px 150px;
+            display: block;
+        }
+
+        .desktopImage {
+            display: block;
+            width: 50%;
+            background: url(https://assets.codepen.io/6060109/athlete-big.png);
+            background-size: cover;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 35% 100%);
+        }
+
+        #athleteHeroImage{
+            display: none;
+        }
+
+        h2 {
+            font-size: 64px;
+        }
+
+    }
