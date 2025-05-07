@@ -5,3 +5,6 @@
 ![AdidasMobileLandingPage](https://github.com/user-attachments/assets/cb552122-2b90-474d-9fb5-b32a61ca2d5e)
 
 
+<h2>Creating the desktop version: </h2>
+
+![AdidasDektopLandingPageOne](https://github.com/user-attachments/assets/bbafbf89-7c73-43e9-addf-539474c6fb7d)
